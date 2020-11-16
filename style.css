@@ -9,7 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  background-color: #282c35;
+  background-color: #000000;
   height: 100vh;
   color: white;
   display: flex;
@@ -18,8 +18,9 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: #63ecbb;
+  text-decoration: underline;
+  font-weight: 1300;
+  color: #f9f871;
 }
 
 main {
