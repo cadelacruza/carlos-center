@@ -8,4 +8,16 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #282c35;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
