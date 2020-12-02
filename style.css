@@ -59,6 +59,10 @@ header {
   text-align: center;
 }
 
+.project > h2 {
+  margin-top: 20px;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
