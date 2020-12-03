@@ -147,11 +147,6 @@ footer a:hover {
   display: flex;
 }
 
-/* .icons.active {
-  filter: brightness(200%);
-  z-index: 1;
-} */
-
 #pomo {
   background-image: url("img/pomo.png");
 }
