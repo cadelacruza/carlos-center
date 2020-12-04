@@ -140,37 +140,22 @@ footer a:hover {
 .icons {
   display: flex;
   opacity: 1;
-  justify-content: space-around;
-  height: 300px;
-  width: 500px;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 570px;
   align-items: center;
-  padding: 0 20px;
-}
-
-.icons.active {
-  opacity: 1;
 }
 
 #pomo {
   background-image: url("img/pomo.png");
 }
 
-#pomo:hover {
-  background-image: url("Shape 1.png");
-}
-
 #books {
   background-image: url(img/books.png);
 }
 
-#books:hover {
-  background-image: url("Shape 1-1.png");
-}
 #poke {
   background-image: url(img/pokedex.png);
-}
-#poke:hover {
-  background-image: url("Shape 1-3.png");
 }
 
 #poke > .icons > a > i {
@@ -178,8 +163,4 @@ footer a:hover {
 }
 #drum {
   background-image: url(img/drum.png);
-}
-
-#drum:hover {
-  background-image: url("Shape 1-2.png");
 }
