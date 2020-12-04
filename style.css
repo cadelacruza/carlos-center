@@ -138,13 +138,17 @@ footer a:hover {
 }
 
 .icons {
-  display: none;
+  display: flex;
+  opacity: 1;
   justify-content: space-around;
-  width: 300px;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .icons.active {
-  display: flex;
+  opacity: 1;
 }
 
 #pomo {
