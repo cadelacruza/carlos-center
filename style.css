@@ -50,11 +50,6 @@ header {
   margin-right: 200px;
 }
 
-.project > img {
-  width: 500px;
-  height: 300px;
-}
-
 .project {
   text-align: center;
 }
@@ -124,9 +119,6 @@ footer a:hover {
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .wrapp > h2 {
@@ -146,6 +138,10 @@ footer a:hover {
   align-items: center;
 }
 
+.icons > a:hover {
+  color: #f9f871;
+}
+
 #pomo {
   background-image: url("img/pomo.png");
 }
@@ -158,9 +154,39 @@ footer a:hover {
   background-image: url(img/pokedex.png);
 }
 
-#poke > .icons > a > i {
-  color: #000000;
-}
 #drum {
   background-image: url(img/drum.png);
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    height: auto;
+  }
+  .top {
+    flex-direction: column;
+    margin: 10px 0 20px 0;
+  }
+
+  .experience {
+    flex-direction: column;
+    margin: 50px 0 20px 0;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  footer > a {
+    margin: 20px;
+  }
 }
